@@ -1,0 +1,9 @@
+{
+    "n_genes": 27855,
+    "enc_dims": 1536,
+    "enc_nlayers": 2,
+    "enc_num_heads": 48,
+    "enc_dropout": 0.1,
+    "pad_zero": false,
+    "add_zero": false
+}
