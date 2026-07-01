@@ -43,7 +43,7 @@ A direct runtime comparison against the original CellFM is currently unavailable
 | Model           | Total (15,681 cells) |      Per cell |        Throughput |      Peak GPU | % Reduced Peak GPU |   Speedup |
 | --------------- | ------------------: | ------------: | ----------------: | ------------: | -----------------: | --------: |
 | **nano-CellFM** |         **275.10 s** | **17.544 ms** | **57.00 cells/s** | N/A |           N/A | N/A |
-| CellFM          |            -- s |     -- ms |     -- cells/s |     N/A |                  N/A |     1.00× |
+| CellFM          |            N/A |     N/A |     N/A |     N/A |                  N/A |     1.00× |
 
 •) Cell embedding
 | Model           | Total (15,681 cells) |      Per cell |        Throughput |      Peak GPU | % Reduced Peak GPU |   Speedup |
