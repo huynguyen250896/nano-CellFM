@@ -1,8 +1,6 @@
 # nano-CellFM
 
-A minimal, fast, and faithful reimplementation of [CellFM](https://github.com/biomed-AI/CellFM) for single-cell foundation model inference, with planned support for fine-tuning and training from scratch.
-
-nano-CellFM is designed to make CellFM easier to understand, modify, and run while preserving the behavior of the original model.
+nano-CellFM is a minimal, fast, and faithful reimplementation of [CellFM](https://github.com/biomed-AI/CellFM) for single-cell foundation model inference, with planned support for fine-tuning and training from scratch. nano-CellFM is part of [nano-scFMs](https://github.com/huynguyen250896/nano-scFMs), a collection of lightweight PyTorch reimplementations of single-cell foundation models.
 
 <!-- ![figure1](assets/umap_nano_CellFM_vs_CellFM.png) -->
 
@@ -11,27 +9,6 @@ nano-CellFM aims to provide:
 - Faithful reproduction of the original CellFM architecture
 - Faster inference with modern PyTorch optimizations
 - A codebase suitable for experimentation, fine-tuning, and future training from scratch
-
-## The nano-scFMs Project
-Single-cell foundation models (scFMs) are one of the most promising directions in AI for biology, yet many existing repositories remain difficult to read, extend, benchmark, or use as educational resources.
-
-nano-CellFM is part of **nano-scFMs**, a collection of lightweight reimplementations of popular single-cell foundation models. The goal is to make state-of-the-art scFMs easier to understand, extend, benchmark, and use as educational resources.
-
-All repositories are implemented in pure, modern PyTorch and follow a consistent coding style, making it straightforward to install, compare, and experiment with different models using the same environment and shared [requirements file](https://github.com/huynguyen250896/nano-CellFM/blob/main/requirements.txt). 
-
-Available Models:
-
-- [X] [nano-scBERT](https://github.com/huynguyen250896/nano-scBERT)
-- [X] [nano-Geneformer](https://github.com/huynguyen250896/nano-Geneformer)
-- [X] nano-CellFM
-- [ ] nano-scFoundation
-- [ ] nano-scPRINT
-- [ ] nano-TranscriptFormer
-- [ ] nano-Nicheformer
-
-**NOTE:** Danqi Liao has already created an excellent minimal implementation of scGPT, so I chose not to duplicate that effort. If you're looking for a lightweight version of scGPT, check out [nano-scGPT](https://github.com/Danqi7/nano-scGPT).
-
-If you know of another single-cell foundation model that should be included, feel free to open an issue or send me a message. To keep the collection focused on established methods, I currently only plan to include models that have been published in peer-reviewed journals.
 
 ## Benchmark 
 I carefully benchmarked nano-CellFM across different settings to give future users confidence in adopting nano-CellFM as a drop-in alternative to the official implementation. Full benchmark details are available in [benchmark_CellFM_vs_nano.ipynb](benchmark_CellFM_vs_nano.ipynb).
