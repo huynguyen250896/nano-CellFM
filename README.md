@@ -161,10 +161,14 @@ Let me know what tasks you'd like to see next!
 ## Acknowledgments
 1. If you find this repo interesting and/or use nano-CellFM in your work, please cite the original paper:
 >Zeng, Y., Xie, J., Shangguan, N. et al. CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells. Nat Commun 16, 4679 (2025). https://doi.org/10.1038/s41467-025-59926-5
+        
+        
+        
+        
 
 and STAR⭐ my repo. Thanks!
 
-2. nano-CellFM is inspired by Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanogpt), Chris Hayduk's [minAlphaFold2](https://github.com/ChrisHayduk/minAlphaFold2), and especially Danqi Liao's [nano-scGPT](https://github.com/Danqi7/nano-scGPT).
+2. nano-CellFM is inspired by Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanogpt) and Chris Hayduk's [minAlphaFold2](https://github.com/ChrisHayduk/minAlphaFold2).
 
 ## License
 [MIT LICENSE](LICENSE)
